@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Electrum E-commerce</title>
-    <link rel="stylesheet" href="css/app.css">
-</head>
-<body>
-    <h1>oi</h1>
-</body>
+    <!--Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--CSS DO PROJETO-->
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="header-top-container">
+          <div class="store-info-container">
+            <span><i class="fas fa-phone"></i></span>
+            <span><i class="far fa-envelope"></i>electrum@email.com</span>
+            <span><i class="fas fa-map-marker-alt"></i>Rua Teste, 1234</span>
+          </div>
+          <div class="header-user-top-menu">
+            <span><i class="fas fa-dollar sign"></i><a href="#">BRL</a></span>
+            <span><i class="fas fa-user"></i><a href="#">Minha Conta</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="main-header-container">
+          <a href="#">Electrum <i class="fas fa-bolt"></i></a>
+          <form id="search-form">
+            <input type="text" id="search" placeholder="Busque aqui" />
+            <input type="submit" class="btn btn-half" value="Pesquisar" />
+          </form>
+          <div class="header-actions-menu">
+            <div class="wishlist-container">
+              <span class="qty">0</span>
+              <i class="far fa-heart"></i>
+              <a href="#">Favoritos</a>
+            </div>
+            <div class="header-cart-container">
+              <span class="qty">0</span>
+              <i class="fas shopping-cart"></i>
+              <a href="#">Carrinho</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Notebooks</a></li>
+            <li><a href="#">Celulares</a></li>
+            <li><a href="#">Câmeras</a></li>
+            <li><a href="#">Acessórios</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="banners">
+        <div class="banner" id="banner-1">
+            <div class="banner-cover"></div>
+            <div class="banner-content">
+                <h2>Promoção de Notebooks</h2>
+                <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="banner" id="banner-2">
+            <div class="banner-cover"></div>
+            <div class="banner-content">
+                <h2>Lançamento de Acessórios</h2>
+                <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="banner" id="banner-3">
+            <div class="banner-cover"></div>
+            <div class="banner-content">
+                <h2>Câmeras Potentes</h2>
+                <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+  </body>
 </html>
