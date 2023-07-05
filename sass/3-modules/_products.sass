@@ -11,6 +11,9 @@
     flex-direction: column
     justify-content: center
     align-items: center
+    @include base-mixins.mobile
+        width: 90%
+        margin: 1rem
 
     &:hover
         border-color: variables.$primary-color
